@@ -1,0 +1,63 @@
+{
+  "homepage": "https://e-shop-admin.skdhar.com",
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/css": "^11.9.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "chart.js": "^3.8.0",
+    "is-hotkey": "^0.2.0",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "react": "^18.0.0",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "react-image-gallery": "^1.2.8",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "slate": "^0.81.0",
+    "slate-history": "^0.66.0",
+    "slate-react": "^0.81.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier",
+    "twbuild": "tailwindcss -i ./src/assests/css/main.css -o ./src/assests/css/style.css -w"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "babel-eslint": "^10.1.0",
+    "postcss": "^8.4.13",
+    "prettier": "^2.6.1",
+    "tailwindcss": "^3.0.24"
+  }
+}
